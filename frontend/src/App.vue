@@ -1,20 +1,20 @@
 <template>
   <Header/>
-  <Center/>
+  <Home/>
   <Footer/>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Center from "@/components/Center.vue";
+import Home from "@/Pages/Home.vue";
 
 export default {
   name: 'App',
   components: {
     Footer,
     Header,
-    Center
+    Home,
   }
 }
 </script>
