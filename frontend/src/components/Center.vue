@@ -12,8 +12,8 @@
 
 <script>
 import {reactive} from "vue";
-import Card from "@/pages/Card.vue";
 import axios from "axios";
+import Card from "@/components/Card.vue";
 
 export default {
   name: 'Center',

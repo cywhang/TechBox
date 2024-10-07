@@ -8,8 +8,7 @@
         <!-- Product name-->
         <h5 class="fw-bolder">{{ item.name }}</h5>
         <!-- Product price-->
-<!--        {{ lib.getNumberFormatted(item.price) }}원-->
-        {{ item.price }}
+        {{ lib.getNumberFormatted(item.price) }}원
       </div>
     </div>
     <!-- Product actions-->
