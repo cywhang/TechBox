@@ -1,10 +1,11 @@
+// vue 인스턴스 생성
 import { createApp } from 'vue'
+import router from '@/scripts/router'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
 
-
-/* 
+/*
 Vue 애플리케이션의 진입점으로서, 여러 가지 중요한 역할을 수행하는 곳.
 
 1. Vue 인스턴스 생성
